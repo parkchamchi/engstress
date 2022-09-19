@@ -1,6 +1,7 @@
 import os
 import json
 import itertools
+import re
 
 class Webster():
 	"""
@@ -8,7 +9,32 @@ class Webster():
 		https://www.gutenberg.org/cache/epub/29765/pg29765.html
 	"""
 
-	def __init__(self, jsonpath="dicts/webster.json", htmlpath="dicts/pg29765.htm"):
+	def __init__(self, no_secondary=False, use_nltk=False, jsonpath="dicts/webster.json", htmlpath="dicts/pg29765.htm"):
+		"""
+		:param no_secondary: do not indicate the secondary stresses
+		:param use_nltk: use the NLTK library to process words whose pronunciation differs by it PoS. (e.g. record)
+		"""
+
+		self.no_secondary = no_secondary
+		if use_nltk:
+			try:
+				from nltk.tag import pos_tag
+				from nltk.tokenize import sent_tokenize, word_tokenize
+				from nltk.tokenize.treebank import TreebankWordDetokenizer
+
+				self.pos_tag = pos_tag
+				self.sent_tokenize = sent_tokenize
+				self.word_tokenize = word_tokenize
+				self.detokenize = TreebankWordDetokenizer().detokenize
+
+				self.use_nltk = use_nltk
+
+			except Exception as exc:
+				print("ERROR: Failed to import NLTK.")
+				self.use_nltk = False
+		else:
+			self.use_nltk = use_nltk
+
 		self.jsonpath = jsonpath
 		self.html = htmlpath
 
@@ -338,43 +364,157 @@ class Webster():
 	#Below: used after self.dict is created
 
 	def getPron(self, word):
-		dic = self.dict.get(word.upper())
+		return self.dict.get(word.upper())
 
-		if not dic:
-			return None
-		elif len(dic) > 1:
-			return None
-		else:
-			return list(dic.keys())[0].lower()
+	def getStress(self, word, pos=None):
+		"""
+		TODO: NLP
+		"""
 
-	def getStress(self, word):
-		pron = self.dict.get(word.upper())
+		infl_from = infl_to = None
+
+		pron = self.getPron(word)
 		if not pron:
-			return word
+			"""
+			Handle inflections
+			-s (words), -es (dishes) -ies -> -y (skies)
+			-ing (making)
+			-ed -> -e (baked) -> x (looked)
+			-er, -est (bigger)
+			"""
 
+			inflections = [("s", ""), ("es", ""), ("ies", "y"), ("ing", ""), ("ed", "e"), ("ed", ""), ("er", ""), ("est", ""), ("er", "e"), ("est", "e"), ("ier", "y"), ("iest", "y")]
+			for infl_from, infl_to in inflections:
+				if word.endswith(infl_from):
+					pron = self.getPron(word[:-len(infl_from)] + infl_to)
+					if pron:
+						break
+
+			if not pron:			
+				return word
+
+		#Handle words with several pronunciations
 		if type(pron) is not str:
-			return word
+			if not pos:
+				return word
+
+			nltk_pos = {
+				"N": "n.",
+				"V": "v.",
+				"J": "a.",
+				"R": "adv."
+			}
+			pos = pos[0]
+			if pos not in nltk_pos:
+				return word
+
+			pos = nltk_pos[pos]
+
+			for subpron, subpos in pron.items():
+				if pos in subpos:
+					pron = subpron
+					break
+
+			if type(pron) is not str:
+				return word
+
+		if self.no_secondary:
+			if self.grave in pron:
+				pron = pron.replace(self.grave, '')
+
+		#Restore
+		if infl_from or infl_to:
+			if not infl_to:
+				pron += infl_from
+			else:
+				#infl_to can be either 'e' of 'y' (for now)
+				if infl_to == 'e':
+					#e -> ed
+					pron += infl_from[1:]
+				else:
+					#y -> ies
+					if any(map(pron.endswith, [self.acute, self.grave])):
+						#Rare case where the last 'y' is stressed
+						y_stress = pron[-1]
+						pron = pron[:-2] + "i" + y_stress + infl_from[1:]
+
+					else:
+						pron = pron[:-1] + infl_from
+
+		#Correct cases
+		j = 0
+		for c in word:
+			if c.islower():
+				continue
+
+			if pron[j] in [self.acute, self.grave]:
+				j += 1
+
+			pron = pron[0:j] + c.upper() + pron[j+1:]
+
+			j += 1
 
 		return pron
+
+	def process(self, corpus):
+		"""
+		This char-by-char version will save minor details of the corpus.
+		"""
+		#.split(' ') version? regex?
+
+		word = ""
+		out = ""
+
+		for c in corpus:
+			if c.isalpha():
+				word += c
+			else:
+				if word:
+					out += self.getStress(word)
+					word = ""
+				out += c
+		if word:
+			out += self.getStress(word)
+
+		return out
+
+	def process_nltk(self, corpus):
+		"""
+		Replace '\n' with something else before tokenizing.
+		"""
+
+		try:
+			assert self.use_nltk
+		except Exception as exc:
+			print("ERROR: NLTK is not loaded!")
+			return self.process(corpus)
+
+		out = []
+		newline = " 😺😸😺\n"
+		corpus = corpus.replace('\n', newline)
+
+		for sent in self.sent_tokenize(corpus):
+			tokens = self.pos_tag(self.word_tokenize(sent))
+
+			#Modify the tokens
+			for i in range(len(tokens)):
+				token, pos = tokens[i]
+				if token.isalpha():
+					tokens[i] = self.getStress(token, pos)
+				else:
+					tokens[i] = token
+			
+			out.append(self.detokenize(tokens).replace(newline.strip(), '\n'))
+
+		return ' '.join(out)
 
 		
 ######################################################
 if __name__ == "__main__":
-	import string
 
-	corpus = """
-	...
-	"""
+	with open("corpus.txt", "rt") as fin:
+		corpus = fin.read()
 
-	webster = Webster()
+	webster = Webster(use_nltk=True)
 
-	out = ""
-	for word in corpus.split():
-		word = word.strip(string.punctuation)
-		out += webster.getStress(word)
-		out += " "
-	print(out)
-
-"""
-TODO: add ignore_secondary option
-"""
+	print(webster.process_nltk(corpus))
