@@ -33,9 +33,8 @@
 	"ABAND": "aba\u0301nd",
 	"ABANDON": {
 		"aba\u0301ndon": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		],
 		"a\u0300ba\u0300ndo\u0301n": [
 			"n."
@@ -190,12 +189,11 @@
 	"ABIT": "abi\u0301t",
 	"ABJECT": {
 		"a\u0301bject": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"abje\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ABJECTEDNESS": "abje\u0301ctedness",
@@ -356,8 +354,7 @@
 			"a."
 		],
 		"abse\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ABSENTANEOUS": "a\u0300bsenta\u0301neous",
@@ -431,11 +428,10 @@
 	"ABSTORTED": "absto\u0301rted",
 	"ABSTRACT": {
 		"a\u0301bstra\u0300ct": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"abstra\u0301ct": [
-			"t.",
 			"v."
 		]
 	},
@@ -572,8 +568,7 @@
 			"n."
 		],
 		"acce\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ACCENTLESS": "a\u0301cce\u0300ntless",
@@ -1575,8 +1570,7 @@
 			"a."
 		],
 		"adve\u0301rse": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ADVERSELY": "a\u0301dversely",
@@ -1747,8 +1741,7 @@
 	"AFFIRMER": "affi\u0301rmer",
 	"AFFIX": {
 		"affi\u0301x": [
-			"v.",
-			"t."
+			"v."
 		],
 		"a\u0301ffix": [
 			"n."
@@ -2733,9 +2726,8 @@
 	"ALLWORK": "a\u0301llwo\u0300rk",
 	"ALLY": {
 		"ally\u0301": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		],
 		"a\u0301lly": [
 			"n."
@@ -2809,8 +2801,7 @@
 	"ALOPECIST": "alo\u0301pecist",
 	"ALOSE": {
 		"alo\u0301se": [
-			"v.",
-			"t."
+			"v."
 		],
 		"a\u0301lose": [
 			"n."
@@ -2876,13 +2867,11 @@
 	"ALTERNAT": "a\u0300lte\u0300rna\u0301t",
 	"ALTERNATE": {
 		"alte\u0301rnate": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"a\u0301lternate": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"ALTERNATELY": "alte\u0301rnately",
@@ -6003,8 +5992,7 @@
 			"n."
 		],
 		"aspe\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ASPECTABLE": "aspe\u0301ctable",
@@ -6626,8 +6614,7 @@
 	"ATTRIBUTABLE": "attri\u0301butable",
 	"ATTRIBUTE": {
 		"attri\u0301bute": [
-			"v.",
-			"t."
+			"v."
 		],
 		"a\u0301ttribute": [
 			"n."
@@ -6694,9 +6681,7 @@
 	"AUGITIC": "augi\u0301tic",
 	"AUGMENT": {
 		"augme\u0301nt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"a\u0301ugment": [
 			"n."
@@ -7006,8 +6991,7 @@
 			"n."
 		],
 		"ave\u0301r": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"AVERAGE": "a\u0301verage",
@@ -10184,8 +10168,7 @@
 			"n."
 		],
 		"bomba\u0301rd": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"BOMBARDIER": "bo\u0300mbardi\u0301er",
@@ -10196,12 +10179,11 @@
 	"BOMBASINE": "bo\u0300mbasi\u0301ne",
 	"BOMBAST": {
 		"bo\u0301mbast": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"bomba\u0301st": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"BOMBASTIC": "bomba\u0301stic",
@@ -11419,10 +11401,8 @@
 			"n."
 		],
 		"bu\u0301ffet": [
-			"n.",
 			"v.",
-			"i.",
-			"t."
+			"n."
 		]
 	},
 	"BUFFETER": "bu\u0301ffeter",
@@ -12747,8 +12727,7 @@
 	"CAPSICUM": "ca\u0301psicum",
 	"CAPSIZE": {
 		"capsi\u0301ze": [
-			"v.",
-			"t."
+			"v."
 		],
 		"ca\u0301psi\u0300ze": [
 			"n."
@@ -13097,8 +13076,7 @@
 			"n."
 		],
 		"ca\u0301rtel": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CARTER": "ca\u0301rter",
@@ -16388,9 +16366,7 @@
 	"COLLEAGUESHIP": "co\u0301lleagueship",
 	"COLLECT": {
 		"colle\u0301ct": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301llect": [
 			"n."
@@ -16716,8 +16692,7 @@
 			"n."
 		],
 		"comme\u0301rce": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"COMMERCIAL": "comme\u0301rcial",
@@ -16751,16 +16726,7 @@
 	"COMMISSIVE": "commi\u0301ssive",
 	"COMMISSURAL": "commi\u0301ssural",
 	"COMMISSURE": "commi\u0301ssure",
-	"COMMIT": {
-		"commi\u0301t": [
-			"v.",
-			"t."
-		],
-		"co\u0301mmit": [
-			"v.",
-			"i."
-		]
-	},
+	"COMMIT": "commi\u0301t",
 	"COMMITMENT": "commi\u0301tment",
 	"COMMITTABLE": "commi\u0301ttable",
 	"COMMITTAL": "commi\u0301ttal",
@@ -16811,8 +16777,7 @@
 	"COMMUNALISTIC": "co\u0300mmunali\u0301stic",
 	"COMMUNE": {
 		"commu\u0301ne": [
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301mmune": [
 			"n."
@@ -16844,8 +16809,6 @@
 	"COMOSE": "co\u0301mose",
 	"COMPACT": {
 		"compa\u0301ct": [
-			"t.",
-			"p.",
 			"v."
 		],
 		"co\u0301mpact": [
@@ -17011,8 +16974,7 @@
 			"n."
 		],
 		"complo\u0301t": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"COMPLOTMENT": "complo\u0301tment",
@@ -17026,9 +16988,7 @@
 	"COMPONY": "compo\u0301ny",
 	"COMPORT": {
 		"compo\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301mport": [
 			"n."
@@ -17058,13 +17018,11 @@
 	"COMPOTIER": "co\u0300mpo\u0300ti\u0301er",
 	"COMPOUND": {
 		"co\u0301mpound": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"compo\u0301und": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"COMPOUNDABLE": "compo\u0301undable",
@@ -17083,8 +17041,7 @@
 	"COMPREHENSOR": "co\u0300mprehe\u0301nsor",
 	"COMPRESS": {
 		"compre\u0301ss": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301mpress": [
 			"n."
@@ -17100,8 +17057,7 @@
 	"COMPRESSURE": "compre\u0301ssure",
 	"COMPRINT": {
 		"compri\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301mprint": [
 			"n."
@@ -17216,9 +17172,7 @@
 	"CONCERNING": "conce\u0301rning",
 	"CONCERT": {
 		"conce\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301ncert": [
 			"n."
@@ -17318,8 +17272,7 @@
 			"n."
 		],
 		"conco\u0301rd": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONCORDABLE": "conco\u0301rdable",
@@ -17340,13 +17293,11 @@
 	"CONCRESCIVE": "concre\u0301scive",
 	"CONCRETE": {
 		"co\u0301ncrete": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"concre\u0301te": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONCRETELY": "concre\u0301tely",
@@ -17418,8 +17369,7 @@
 			"a."
 		],
 		"condi\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CONDITION": "condi\u0301tion",
@@ -17453,9 +17403,7 @@
 			"n."
 		],
 		"condu\u0301ct": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONDUCTANCE": "condu\u0301ctance",
@@ -17493,8 +17441,7 @@
 	"CONFATED": "confa\u0301ted",
 	"CONFECT": {
 		"confe\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nfect": [
 			"n."
@@ -17557,8 +17504,7 @@
 	"CONFINABLE": "confi\u0301nable",
 	"CONFINE": {
 		"confi\u0301ne": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nfine": [
 			"n."
@@ -17600,8 +17546,7 @@
 			"n."
 		],
 		"confli\u0301ct": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONFLICTING": "confli\u0301cting",
@@ -17879,12 +17824,11 @@
 	"CONSCRIBE": "conscri\u0301be",
 	"CONSCRIPT": {
 		"co\u0301nscript": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"conscri\u0301pt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CONSCRIPTION": "conscri\u0301ption",
@@ -17932,8 +17876,7 @@
 	"CONSERVATRIX": "co\u0300nserva\u0301trix",
 	"CONSERVE": {
 		"conse\u0301rve": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nserve": [
 			"n."
@@ -17987,8 +17930,7 @@
 	"CONSOLATORY": "conso\u0301latory",
 	"CONSOLE": {
 		"conso\u0301le": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nsole": [
 			"n."
@@ -18018,9 +17960,7 @@
 			"n."
 		],
 		"conso\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONSORTABLE": "conso\u0301rtable",
@@ -18090,8 +18030,7 @@
 	"CONSTRINGENT": "constri\u0301ngent",
 	"CONSTRUCT": {
 		"constru\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nstruct": [
 			"a."
@@ -18143,8 +18082,7 @@
 			"a."
 		],
 		"co\u0301nsummate": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CONSUMMATELY": "consu\u0301mmately",
@@ -18216,9 +18154,8 @@
 			"n."
 		],
 		"conte\u0301nt": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		]
 	},
 	"CONTENTATION": "co\u0300ntenta\u0301tion",
@@ -18240,9 +18177,7 @@
 	"CONTESSERATION": "conte\u0300ssera\u0301tion",
 	"CONTEST": {
 		"conte\u0301st": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301ntest": [
 			"n."
@@ -18255,9 +18190,8 @@
 	"CONTEX": "contex",
 	"CONTEXT": {
 		"conte\u0301xt": [
-			"t.",
-			"v.",
-			"a."
+			"a.",
+			"v."
 		],
 		"co\u0301ntext": [
 			"n."
@@ -18318,14 +18252,12 @@
 	"CONTRABASSO": "co\u0300ntraba\u0301sso",
 	"CONTRACT": {
 		"contra\u0301ct": [
-			"t.",
 			"v.",
-			"i.",
 			"a."
 		],
 		"co\u0301ntract": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"CONTRACTED": "contra\u0301cted",
@@ -18340,16 +18272,7 @@
 	"CONTRACTOR": "contra\u0301ctor",
 	"CONTRACTURE": "contra\u0301cture",
 	"CONTRADANCE": "co\u0301ntrada\u0300nce",
-	"CONTRADICT": {
-		"co\u0300ntradi\u0301ct": [
-			"v.",
-			"t."
-		],
-		"co\u0300ntradict": [
-			"v.",
-			"i."
-		]
-	},
+	"CONTRADICT": "co\u0300ntradi\u0301ct",
 	"CONTRADICTABLE": "co\u0300ntradi\u0301ctable",
 	"CONTRADICTER": "co\u0300ntradi\u0301cter",
 	"CONTRADICTION": "co\u0300ntradi\u0301ction",
@@ -18392,9 +18315,7 @@
 	"CONTRARY": "co\u0301ntrary",
 	"CONTRAST": {
 		"contra\u0301st": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301ntrast": [
 			"n."
@@ -18492,9 +18413,7 @@
 			"n."
 		],
 		"conve\u0301nt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"CONVENTICAL": "conve\u0301ntical",
@@ -18542,8 +18461,7 @@
 	"CONVERSAZIONE": "co\u0300nversa\u0300zi\u0301one",
 	"CONVERSE": {
 		"conve\u0301rse": [
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301nverse": [
 			"n."
@@ -18556,9 +18474,7 @@
 	"CONVERSIVE": "conve\u0301rsive",
 	"CONVERT": {
 		"conve\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301nvert": [
 			"n."
@@ -18590,7 +18506,6 @@
 	"CONVICIOUS": "convi\u0301cious",
 	"CONVICT": {
 		"convi\u0301ct": [
-			"t.",
 			"v."
 		],
 		"co\u0301nvict": [
@@ -18610,8 +18525,7 @@
 	"CONVIVAL": "convi\u0301val",
 	"CONVIVE": {
 		"convi\u0301ve": [
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301nvive": [
 			"n."
@@ -18635,8 +18549,7 @@
 	"CONVOLVULUS": "convo\u0301lvulus",
 	"CONVOY": {
 		"convo\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301nvoy": [
 			"n."
@@ -18935,8 +18848,7 @@
 			"a."
 		],
 		"cornu\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CORNUTED": "cornu\u0301ted",
@@ -19035,9 +18947,7 @@
 	"CORRELATABLE": "co\u0300rrela\u0301table",
 	"CORRELATE": {
 		"co\u0300rrela\u0301te": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301rrelate": [
 			"n."
@@ -19346,8 +19256,7 @@
 	"COUNTERACTIVELY": "co\u0300untera\u0301ctively",
 	"COUNTERBALANCE": {
 		"co\u0300unterba\u0301lance": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301unterba\u0300lance": [
 			"n."
@@ -19358,15 +19267,13 @@
 			"n."
 		],
 		"co\u0300unterbo\u0301re": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"COUNTERBRACE": "co\u0301unterbra\u0300ce",
 	"COUNTERBUFF": {
 		"co\u0300unterbu\u0301ff": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301unterbu\u0300ff": [
 			"n."
@@ -19376,8 +19283,7 @@
 	"COUNTERCASTER": "co\u0301unterca\u0300ster",
 	"COUNTERCHANGE": {
 		"co\u0300untercha\u0301nge": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301untercha\u0300nge": [
 			"n."
@@ -19387,8 +19293,7 @@
 	"COUNTERCHARGE": "co\u0301untercha\u0300rge",
 	"COUNTERCHARM": {
 		"co\u0300untercha\u0301rm": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301untercha\u0300rm": [
 			"n."
@@ -19396,8 +19301,7 @@
 	},
 	"COUNTERCHECK": {
 		"co\u0300unterche\u0301ck": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301unterche\u0300ck": [
 			"n."
@@ -19426,8 +19330,7 @@
 	"COUNTERMAN": "co\u0301unterman",
 	"COUNTERMAND": {
 		"co\u0300unterma\u0301nd": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301untermand": [
 			"n."
@@ -19436,8 +19339,7 @@
 	"COUNTERMANDABLE": "co\u0300unterma\u0301ndable",
 	"COUNTERMARCH": {
 		"co\u0300unterma\u0301rch": [
-			"v.",
-			"i."
+			"v."
 		],
 		"co\u0301unterma\u0300rch": [
 			"n."
@@ -19448,8 +19350,7 @@
 			"n."
 		],
 		"co\u0300unterma\u0301rk": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"COUNTERMINE": {
@@ -19457,15 +19358,12 @@
 			"n."
 		],
 		"co\u0300untermi\u0301ne": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"COUNTERMOVE": {
 		"co\u0300untermo\u0301ve": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301untermo\u0300ve": [
 			"n."
@@ -19476,8 +19374,7 @@
 			"n."
 		],
 		"co\u0300untermu\u0301re": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"COUNTERNATURAL": "co\u0301unterna\u0300tural",
@@ -19487,8 +19384,7 @@
 	"COUNTERPLEAD": "co\u0300unterple\u0301ad",
 	"COUNTERPLOT": {
 		"co\u0300unterplo\u0301t": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301unterplo\u0300t": [
 			"n."
@@ -19507,8 +19403,7 @@
 	"COUNTERSHAFT": "co\u0301untersha\u0300ft",
 	"COUNTERSIGN": {
 		"co\u0300untersi\u0301gn": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301untersi\u0300gn": [
 			"a."
@@ -19528,8 +19423,7 @@
 	"COUNTERTURN": "co\u0301untertu\u0300rn",
 	"COUNTERVAIL": {
 		"co\u0300unterva\u0301il": [
-			"v.",
-			"t."
+			"v."
 		],
 		"co\u0301unterva\u0300il": [
 			"n."
@@ -20673,8 +20567,7 @@
 			"n."
 		],
 		"cupe\u0301l": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"CUPELLATION": "cu\u0300pella\u0301tion",
@@ -20795,8 +20688,7 @@
 	"CURT": "curt",
 	"CURTAIL": {
 		"curta\u0301il": [
-			"v.",
-			"t."
+			"v."
 		],
 		"cu\u0301rtail": [
 			"n."
@@ -22977,8 +22869,7 @@
 			"n."
 		],
 		"desca\u0301nt": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"DESCANTER": "desca\u0301nter",
@@ -23012,14 +22903,12 @@
 	"DESEGMENTATION": "dese\u0300gmenta\u0301tion",
 	"DESERT": {
 		"dese\u0301rt": [
-			"n.",
 			"v.",
-			"i.",
-			"t."
+			"n."
 		],
 		"de\u0301sert": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"DESERTER": "dese\u0301rter",
@@ -23904,9 +23793,7 @@
 	"DIGERENT": "di\u0301gerent",
 	"DIGEST": {
 		"dige\u0301st": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"di\u0301gest": [
 			"n."
@@ -24563,8 +24450,7 @@
 			"n."
 		],
 		"disco\u0301rd": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"DISCORDABLE": "disco\u0301rdable",
@@ -25001,8 +24887,7 @@
 	"DISPARADISED": "dispa\u0301radised",
 	"DISPARAGE": {
 		"dispa\u0301rage": [
-			"v.",
-			"t."
+			"v."
 		],
 		"di\u0301spara\u0300ge": [
 			"n."
@@ -25574,7 +25459,6 @@
 		],
 		"dive\u0301rse": [
 			"v.",
-			"i.",
 			"adv."
 		]
 	},
@@ -26770,8 +26654,7 @@
 			"n."
 		],
 		"dure\u0301ss": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"DURESSOR": "dure\u0301ssor",
@@ -27373,8 +27256,7 @@
 			"n."
 		],
 		"efflu\u0301x": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"EFFLUXION": "efflu\u0301xion",
@@ -27465,8 +27347,7 @@
 			"n."
 		],
 		"egre\u0301ss": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"EGRESSION": "egre\u0301ssion",
@@ -29078,8 +28959,7 @@
 			"n."
 		],
 		"entra\u0301nce": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ENTRANCEMENT": "entra\u0301ncement",
@@ -29850,8 +29730,7 @@
 			"n."
 		],
 		"esco\u0301rt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ESCOT": "esco\u0301t",
@@ -29932,8 +29811,7 @@
 			"n."
 		],
 		"essa\u0301y": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"ESSAYER": "essa\u0301yer",
@@ -30835,9 +30713,8 @@
 	"EXIGUOUS": "exi\u0301guous",
 	"EXILE": {
 		"e\u0301xile": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		],
 		"exi\u0301le": [
 			"a."
@@ -31017,9 +30894,8 @@
 	"EXPERRECTION": "e\u0300xperre\u0301ction",
 	"EXPERT": {
 		"expe\u0301rt": [
-			"t.",
-			"v.",
-			"a."
+			"a.",
+			"v."
 		],
 		"e\u0301xpert": [
 			"n."
@@ -31097,8 +30973,7 @@
 	"EXPONENTIAL": "e\u0300xpone\u0301ntial",
 	"EXPORT": {
 		"expo\u0301rt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"e\u0301xport": [
 			"n."
@@ -31298,8 +31173,7 @@
 	"EXTRACAPSULAR": "e\u0300xtraca\u0301psular",
 	"EXTRACT": {
 		"extra\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"e\u0301xtra\u0300ct": [
 			"n."
@@ -31782,8 +31656,7 @@
 	"FAREN": "fa\u0301ren",
 	"FAREWELL": {
 		"fa\u0300rewe\u0301ll": [
-			"n.",
-			"interj."
+			"n."
 		],
 		"fa\u0301rewe\u0300ll": [
 			"a."
@@ -32230,9 +32103,7 @@
 			"n."
 		],
 		"ferme\u0301nt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"FERMENTABILITY": "ferme\u0300ntabi\u0301lity",
@@ -32893,8 +32764,7 @@
 	"FLAGELLATA": "fla\u0300gella\u0301ta",
 	"FLAGELLATE": {
 		"fla\u0301gellate": [
-			"v.",
-			"t."
+			"v."
 		],
 		"flage\u0301llate": [
 			"a."
@@ -33682,8 +33552,7 @@
 	"FOREAPPOINTMENT": "fo\u0300reappo\u0301intment",
 	"FOREARM": {
 		"forea\u0301rm": [
-			"v.",
-			"t."
+			"v."
 		],
 		"fo\u0301rea\u0300rm": [
 			"n."
@@ -33701,9 +33570,7 @@
 	"FOREBY": "foreby\u0301",
 	"FORECAST": {
 		"foreca\u0301st": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"fo\u0301recast": [
 			"n."
@@ -33724,8 +33591,7 @@
 	"FOREDISPOSE": "fo\u0300redispo\u0301se",
 	"FOREDOOM": {
 		"foredo\u0301om": [
-			"v.",
-			"t."
+			"v."
 		],
 		"fo\u0301redo\u0300om": [
 			"n."
@@ -33861,8 +33727,7 @@
 			"n."
 		],
 		"foreta\u0301ste": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"FORETASTER": "fo\u0301reta\u0300ster",
@@ -33878,8 +33743,7 @@
 			"n."
 		],
 		"foreto\u0301ken": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"FORETOP": "fo\u0301reto\u0300p",
@@ -34389,8 +34253,7 @@
 			"a."
 		],
 		"frequ\u0301ent": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"FREQUENTABLE": "frequ\u0301entable",
@@ -34600,8 +34463,7 @@
 			"n."
 		],
 		"fro\u0300stbi\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"FROSTBOW": "fro\u0301stbo\u0300w",
@@ -35176,10 +35038,9 @@
 			"a."
 		],
 		"galla\u0301nt": [
+			"a.",
 			"n.",
-			"t.",
-			"v.",
-			"a."
+			"v."
 		]
 	},
 	"GALLANTLY": "galla\u0301ntly",
@@ -35238,8 +35099,7 @@
 			"n."
 		],
 		"ga\u0300llopa\u0301de": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"GALLOPER": "ga\u0301lloper",
@@ -37635,8 +37495,7 @@
 			"n."
 		],
 		"gu\u0301arante\u0300e": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"GUARANTOR": "gu\u0301aranto\u0300r",
@@ -40099,29 +39958,9 @@
 	"HOLLANDER": "ho\u0301llander",
 	"HOLLANDISH": "ho\u0301llandish",
 	"HOLLANDS": "ho\u0301llands",
-	"HOLLO": {
-		"hollo\u0301": [
-			"interj."
-		],
-		"ho\u0301llo": [
-			"v.",
-			"i."
-		]
-	},
+	"HOLLO": "ho\u0301llo",
 	"HOLLOA": "hollo\u0301a",
-	"HOLLOW": {
-		"ho\u0301llow": [
-			"n.",
-			"v.",
-			"i.",
-			"t.",
-			"a.",
-			"adv."
-		],
-		"hollo\u0301w": [
-			"interj."
-		]
-	},
+	"HOLLOW": "ho\u0301llow",
 	"HOLLOWLY": "ho\u0301llowly",
 	"HOLLOWNESS": "ho\u0301llowness",
 	"HOLLUSCHICKIE": "ho\u0301lluschi\u0300ckie",
@@ -40916,10 +40755,7 @@
 	"HUZZ": "huzz",
 	"HUZZA": {
 		"huzza\u0301": [
-			"interj.",
-			"v.",
-			"i.",
-			"t."
+			"v."
 		],
 		"hu\u0301zza": [
 			"n."
@@ -42151,8 +41987,7 @@
 	"IMPACKMENT": "impa\u0301ckment",
 	"IMPACT": {
 		"impa\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301mpact": [
 			"n."
@@ -42163,9 +41998,8 @@
 	"IMPAINT": "impa\u0301int",
 	"IMPAIR": {
 		"impa\u0301ir": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		],
 		"i\u0301mpair": [
 			"a."
@@ -42457,9 +42291,7 @@
 	"IMPOROUS": "impo\u0301rous",
 	"IMPORT": {
 		"impo\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"i\u0301mport": [
 			"n."
@@ -42546,9 +42378,7 @@
 	"IMPRESE": "impre\u0301se",
 	"IMPRESS": {
 		"impre\u0301ss": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"i\u0301mpress": [
 			"n."
@@ -42570,8 +42400,7 @@
 	"IMPRESSURE": "impre\u0301ssure",
 	"IMPREST": {
 		"impre\u0301st": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301mprest": [
 			"n."
@@ -42587,8 +42416,7 @@
 	"IMPRIMIS": "impri\u0301mis",
 	"IMPRINT": {
 		"impri\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301mprint": [
 			"n."
@@ -42672,8 +42500,7 @@
 			"n."
 		],
 		"impu\u0301lse": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"IMPULSION": "impu\u0301lsion",
@@ -42889,13 +42716,11 @@
 	"INCENSATION": "i\u0300ncensa\u0301tion",
 	"INCENSE": {
 		"ince\u0301nse": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301ncense": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		]
 	},
 	"INCENSED": "ince\u0301nsed",
@@ -43250,9 +43075,7 @@
 	"INCREASABLE": "incre\u0301asable",
 	"INCREASE": {
 		"incre\u0301ase": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"i\u0301ncrease": [
 			"n."
@@ -43264,8 +43087,7 @@
 	"INCREASINGLY": "incre\u0301asingly",
 	"INCREATE": {
 		"i\u0300ncrea\u0301te": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301ncreate": [
 			"a."
@@ -44001,8 +43823,7 @@
 	"INFIDELITY": "i\u0300nfide\u0301lity",
 	"INFIELD": {
 		"infi\u0301eld": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nfi\u0300eld": [
 			"n."
@@ -44035,8 +43856,7 @@
 	"INFIRMNESS": "infi\u0301rmness",
 	"INFIX": {
 		"infi\u0301x": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nfix": [
 			"n."
@@ -44402,8 +44222,7 @@
 	"INLAW": "inla\u0301w",
 	"INLAY": {
 		"inla\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nla\u0300y": [
 			"n."
@@ -44431,8 +44250,7 @@
 			"a."
 		],
 		"inna\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"INNATELY": "i\u0301nnately",
@@ -44572,8 +44390,7 @@
 			"n."
 		],
 		"inru\u0301sh": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"INSABBATATI": "insa\u0300bbata\u0301ti",
@@ -44675,8 +44492,7 @@
 	"INSESSORIAL": "i\u0300nsesso\u0301rial",
 	"INSET": {
 		"inse\u0301t": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nset": [
 			"n."
@@ -44823,9 +44639,8 @@
 	"INSTIMULATION": "insti\u0300mula\u0301tion",
 	"INSTINCT": {
 		"insti\u0301nct": [
-			"t.",
-			"v.",
-			"a."
+			"a.",
+			"v."
 		],
 		"i\u0301nstinct": [
 			"n."
@@ -44906,9 +44721,7 @@
 			"n."
 		],
 		"insu\u0301lt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"INSULTABLE": "insu\u0301ltable",
@@ -44927,16 +44740,7 @@
 	"INSURANCE": "insu\u0301rance",
 	"INSURANCER": "insu\u0301rancer",
 	"INSURANT": "insu\u0301rant",
-	"INSURE": {
-		"i\u0301nsure": [
-			"v.",
-			"t."
-		],
-		"insu\u0301re": [
-			"v.",
-			"i."
-		]
-	},
+	"INSURE": "i\u0301nsure",
 	"INSURER": "insu\u0301rer",
 	"INSURGENCE": "insu\u0301rgence",
 	"INSURGENCY": "insu\u0301rgency",
@@ -45102,8 +44906,7 @@
 	"INTERCENTRUM": "i\u0300nterce\u0301ntrum",
 	"INTERCEPT": {
 		"i\u0300nterce\u0301pt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nterce\u0300pt": [
 			"n."
@@ -45162,8 +44965,7 @@
 	"INTERCROP": "i\u0301ntercro\u0300p",
 	"INTERCROSS": {
 		"i\u0300ntercro\u0301ss": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301ntercro\u0300ss": [
 			"n."
@@ -45184,8 +44986,7 @@
 	"INTERDEPENDENT": "i\u0300nterdepe\u0301ndent",
 	"INTERDICT": {
 		"i\u0300nterdi\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nterdi\u0300ct": [
 			"n."
@@ -45427,9 +45228,7 @@
 	"INTERPOSAL": "i\u0300nterpo\u0301sal",
 	"INTERPOSE": {
 		"i\u0300nterpo\u0301se": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"i\u0301nterpose": [
 			"n."
@@ -45788,10 +45587,9 @@
 			"a."
 		],
 		"i\u0301nvalid": [
+			"a.",
 			"n.",
-			"t.",
-			"v.",
-			"a."
+			"v."
 		]
 	},
 	"INVALIDATE": "inva\u0301lidate",
@@ -45850,13 +45648,11 @@
 	"INVERSION": "inve\u0301rsion",
 	"INVERT": {
 		"inve\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"i\u0301nvert": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"INVERTASE": "inve\u0301rtase",
@@ -45955,8 +45751,7 @@
 	"INVULNERATE": "invu\u0301lnerate",
 	"INWALL": {
 		"inwa\u0301ll": [
-			"v.",
-			"t."
+			"v."
 		],
 		"i\u0301nwa\u0300ll": [
 			"n."
@@ -46994,8 +46789,7 @@
 			"n."
 		],
 		"ju\u0301bilate": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"JUBILATION": "ju\u0300bila\u0301tion",
@@ -49297,9 +49091,8 @@
 			"a."
 		],
 		"leva\u0301nt": [
-			"n.",
 			"v.",
-			"i."
+			"n."
 		]
 	},
 	"LEVANTER": "leva\u0301nter",
@@ -52227,8 +52020,8 @@
 			"n."
 		],
 		"ma\u0301tin": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"MATINAL": "ma\u0301tinal",
@@ -53900,10 +53693,9 @@
 	"MINUTARY": "mi\u0301nutary",
 	"MINUTE": {
 		"mi\u0301nute": [
+			"a.",
 			"n.",
-			"t.",
-			"v.",
-			"a."
+			"v."
 		],
 		"minu\u0301te": [
 			"a."
@@ -53914,8 +53706,8 @@
 			"adv."
 		],
 		"mi\u0301nutely": [
-			"adv.",
-			"a."
+			"a.",
+			"adv."
 		]
 	},
 	"MINUTEMAN": "mi\u0301nuteman",
@@ -54070,9 +53862,7 @@
 			"n."
 		],
 		"mi\u0300scondu\u0301ct": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"MISCONFIDENT": "misco\u0301nfident",
@@ -58162,9 +57952,7 @@
 	"OBITUARY": "obi\u0301tuary",
 	"OBJECT": {
 		"obje\u0301ct": [
-			"t.",
 			"v.",
-			"i.",
 			"a."
 		],
 		"o\u0301bject": [
@@ -58710,22 +58498,12 @@
 			"n."
 		],
 		"o\u0300ffpri\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"OFFSCOURING": "o\u0301ffsco\u0300uring",
 	"OFFSCUM": "o\u0301ffscu\u0300m",
-	"OFFSET": {
-		"offse\u0301t": [
-			"v.",
-			"t."
-		],
-		"o\u0301ffset": [
-			"v.",
-			"i."
-		]
-	},
+	"OFFSET": "offse\u0301t",
 	"OFFSHOOT": "o\u0301ffsho\u0300ot",
 	"OFFSHORE": "o\u0301ffsho\u0301re",
 	"OFFSKIP": "o\u0301ffski\u0300p",
@@ -60018,8 +59796,7 @@
 			"n."
 		],
 		"outcro\u0301p": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"OUTCRY": "o\u0301utcry\u0300",
@@ -60055,8 +59832,7 @@
 			"n."
 		],
 		"outflo\u0301w": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"OUTFLY": "outfly\u0301",
@@ -60070,8 +59846,7 @@
 	"OUTGIVE": "outgi\u0301ve",
 	"OUTGO": {
 		"outgo\u0301": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utgo\u0300": [
 			"n."
@@ -60088,8 +59863,7 @@
 			"n."
 		],
 		"outgu\u0301sh": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"OUTHAUL": "o\u0301utha\u0300ul",
@@ -60113,8 +59887,7 @@
 	"OUTLAWRY": "o\u0301utla\u0300wry",
 	"OUTLAY": {
 		"outla\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utla\u0300y": [
 			"n."
@@ -60122,8 +59895,7 @@
 	},
 	"OUTLEAP": {
 		"outle\u0301ap": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utle\u0300ap": [
 			"n."
@@ -60135,8 +59907,7 @@
 			"n."
 		],
 		"outle\u0301t": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"OUTLIE": "outli\u0301e",
@@ -60148,8 +59919,7 @@
 	"OUTLIVER": "outli\u0301ver",
 	"OUTLOOK": {
 		"outlo\u0301ok": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utlo\u0300ok": [
 			"n."
@@ -60185,8 +59955,7 @@
 	"OUTPOST": "o\u0301utpo\u0300st",
 	"OUTPOUR": {
 		"outpo\u0301ur": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utpo\u0300ur": [
 			"n."
@@ -60200,13 +59969,11 @@
 	"OUTQUENCH": "outqu\u0301ench",
 	"OUTRAGE": {
 		"outra\u0301ge": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utrage": [
-			"n.",
 			"v.",
-			"t."
+			"n."
 		]
 	},
 	"OUTRAGEOUS": "outra\u0301geous",
@@ -60223,8 +59990,7 @@
 	"OUTREIGN": "outre\u0301ign",
 	"OUTRIDE": {
 		"outri\u0301de": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utri\u0300de": [
 			"n."
@@ -60331,8 +60097,7 @@
 	"OUTWING": "outwi\u0301ng",
 	"OUTWIT": {
 		"outwi\u0301t": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utwit": [
 			"n."
@@ -60341,8 +60106,7 @@
 	"OUTWOE": "outwo\u0301e",
 	"OUTWORK": {
 		"outwo\u0301rk": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301utwo\u0300rk": [
 			"n."
@@ -60391,8 +60155,7 @@
 	"OVERAWFUL": "o\u0301vera\u0301wful",
 	"OVERBALANCE": {
 		"o\u0300verba\u0301lance": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verba\u0300lance": [
 			"n."
@@ -60420,8 +60183,7 @@
 	"OVERBULK": "o\u0300verbu\u0301lk",
 	"OVERBURDEN": {
 		"o\u0300verbu\u0301rden": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verbu\u0300rden": [
 			"n."
@@ -60442,9 +60204,7 @@
 	"OVERCHANGE": "o\u0301vercha\u0300nge",
 	"OVERCHARGE": {
 		"o\u0300vercha\u0301rge": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"o\u0301vercha\u0300rge": [
 			"n."
@@ -60480,8 +60240,7 @@
 	"OVERDOER": "o\u0300verdo\u0301er",
 	"OVERDOSE": {
 		"o\u0300verdo\u0301se": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verdo\u0300se": [
 			"n."
@@ -60520,9 +60279,7 @@
 	"OVERFLOURISH": "o\u0300verflo\u0301urish",
 	"OVERFLOW": {
 		"o\u0300verflo\u0301w": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"o\u0301verflo\u0300w": [
 			"n."
@@ -60573,9 +60330,7 @@
 	"OVERHANDLE": "o\u0300verha\u0301ndle",
 	"OVERHANG": {
 		"o\u0300verha\u0301ng": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"o\u0300verha\u0300ng": [
 			"n."
@@ -60588,8 +60343,7 @@
 	"OVERHASTY": "o\u0301verha\u0301sty",
 	"OVERHAUL": {
 		"o\u0300verha\u0301ul": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verha\u0300ul": [
 			"n."
@@ -60613,8 +60367,7 @@
 	"OVERJEALOUS": "o\u0300verje\u0301alous",
 	"OVERJOY": {
 		"o\u0300verjo\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verjo\u0300y": [
 			"n."
@@ -60630,8 +60383,7 @@
 	"OVERLANGUAGED": "o\u0301verla\u0301nguaged",
 	"OVERLAP": {
 		"o\u0300verla\u0301p": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verla\u0300p": [
 			"n."
@@ -60646,8 +60398,7 @@
 	"OVERLAVISH": "o\u0301verla\u0301vish",
 	"OVERLAY": {
 		"o\u0300verla\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verla\u0300y": [
 			"n."
@@ -60672,8 +60423,7 @@
 	"OVERLIVER": "o\u0301verli\u0301ver",
 	"OVERLOAD": {
 		"o\u0300verlo\u0301ad": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verlo\u0300ad": [
 			"n."
@@ -60701,8 +60451,7 @@
 	"OVERMASTER": "o\u0300verma\u0301ster",
 	"OVERMATCH": {
 		"o\u0300verma\u0301tch": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verma\u0300tch": [
 			"n."
@@ -60710,8 +60459,7 @@
 	},
 	"OVERMEASURE": {
 		"o\u0300verme\u0301asure": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verme\u0300asure": [
 			"n."
@@ -60760,8 +60508,7 @@
 	"OVERPLY": "o\u0300verply\u0301",
 	"OVERPOISE": {
 		"o\u0300verpo\u0301ise": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verpo\u0300ise": [
 			"n."
@@ -60773,8 +60520,7 @@
 	"OVERPOTENT": "o\u0301verpo\u0301tent",
 	"OVERPOWER": {
 		"o\u0300verpo\u0301wer": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verpo\u0300wer": [
 			"n."
@@ -60799,8 +60545,7 @@
 	"OVERRANK": "o\u0301verra\u0301nk",
 	"OVERRATE": {
 		"o\u0300verra\u0301te": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verra\u0300te": [
 			"n."
@@ -60808,9 +60553,7 @@
 	},
 	"OVERREACH": {
 		"o\u0300verre\u0301ach": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"o\u0301verre\u0300ach": [
 			"n."
@@ -60854,9 +60597,7 @@
 	"OVERSELL": "o\u0300verse\u0300ll",
 	"OVERSET": {
 		"o\u0300verse\u0301t": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"o\u0301verse\u0300t": [
 			"n."
@@ -60880,8 +60621,7 @@
 			"n."
 		],
 		"o\u0300versla\u0301ugh": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"OVERSLEEP": "o\u0300versle\u0301ep",
@@ -60911,8 +60651,7 @@
 			"n."
 		],
 		"o\u0300versto\u0301ck": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"OVERSTORE": "o\u0300versto\u0301re",
@@ -60929,8 +60668,7 @@
 	"OVERSUM": "o\u0301versu\u0300m",
 	"OVERSUPPLY": {
 		"o\u0300versupply\u0301": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301versupply\u0300": [
 			"n."
@@ -60948,8 +60686,7 @@
 	"OVERTEMPT": "o\u0300verte\u0301mpt",
 	"OVERTHROW": {
 		"o\u0300verthro\u0301w": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301verthro\u0300w": [
 			"n."
@@ -60978,15 +60715,13 @@
 			"n."
 		],
 		"o\u0300vertru\u0301st": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"OVERTURE": "o\u0301verture",
 	"OVERTURN": {
 		"o\u0300vertu\u0301rn": [
-			"v.",
-			"t."
+			"v."
 		],
 		"o\u0301vertu\u0300rn": [
 			"n."
@@ -61027,7 +60762,6 @@
 	"OVERWORD": "o\u0300verwo\u0301rd",
 	"OVERWORK": {
 		"o\u0300verwo\u0301rk": [
-			"t.",
 			"v."
 		],
 		"o\u0301verwo\u0300rk": [
@@ -63521,8 +63255,7 @@
 	"PERFUMATORY": "perfu\u0301matory",
 	"PERFUME": {
 		"perfu\u0301me": [
-			"v.",
-			"t."
+			"v."
 		],
 		"pe\u0301rfume": [
 			"n."
@@ -63780,9 +63513,7 @@
 	"PERMISTION": "permi\u0301stion",
 	"PERMIT": {
 		"permi\u0301t": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"pe\u0301rmit": [
 			"n."
@@ -63998,9 +63729,7 @@
 	"PERVERSIVE": "perve\u0301rsive",
 	"PERVERT": {
 		"perve\u0301rt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"pe\u0301rvert": [
 			"n."
@@ -67023,8 +66752,7 @@
 			"n."
 		],
 		"postfi\u0301x": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"POSTFRONTAL": "postfro\u0301ntal",
@@ -67523,8 +67251,7 @@
 	"PRECONCEPTION": "pre\u0300conce\u0301ption",
 	"PRECONCERT": {
 		"pre\u0300conce\u0301rt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"preco\u0301ncert": [
 			"n."
@@ -67547,9 +67274,7 @@
 	"PRECONSTITUTE": "preco\u0301nstitute",
 	"PRECONTRACT": {
 		"pre\u0300contra\u0301ct": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"preco\u0301ntract": [
 			"n."
@@ -67576,8 +67301,7 @@
 	"PREDECAY": "pre\u0301deca\u0300y",
 	"PREDECEASE": {
 		"pre\u0300decease": [
-			"v.",
-			"t."
+			"v."
 		],
 		"pre\u0301dece\u0300ase": [
 			"n."
@@ -67680,8 +67404,7 @@
 	"PREFINITION": "pre\u0300fini\u0301tion",
 	"PREFIX": {
 		"prefi\u0301x": [
-			"v.",
-			"t."
+			"v."
 		],
 		"pre\u0301fix": [
 			"n."
@@ -67762,9 +67485,7 @@
 			"n."
 		],
 		"prelu\u0301de": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"PRELUDER": "prelu\u0301der",
@@ -67795,9 +67516,7 @@
 			"n."
 		],
 		"premi\u0301se": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"PREMISS": "pre\u0301miss",
@@ -67915,9 +67634,7 @@
 			"n."
 		],
 		"presa\u0301ge": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"PRESAGEFUL": "presa\u0301geful",
@@ -67966,14 +67683,12 @@
 	"PRESENSION": "prese\u0301nsion",
 	"PRESENT": {
 		"pre\u0301sent": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"prese\u0301nt": [
-			"n.",
-			"t.",
 			"v.",
-			"i."
+			"n."
 		]
 	},
 	"PRESENTABLE": "prese\u0301ntable",
@@ -68417,8 +68132,7 @@
 	"PROCEDURE": "proce\u0301dure",
 	"PROCEED": {
 		"proce\u0301ed": [
-			"v.",
-			"i."
+			"v."
 		],
 		"pro\u0301ceed": [
 			"n."
@@ -68530,9 +68244,7 @@
 	"PRODROMUS": "pro\u0301dromus",
 	"PRODUCE": {
 		"produ\u0301ce": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"pro\u0301duce": [
 			"n."
@@ -68548,8 +68260,7 @@
 			"n."
 		],
 		"produ\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"PRODUCTIBILITY": "produ\u0300ctibi\u0301lity",
@@ -68666,9 +68377,7 @@
 			"n."
 		],
 		"proje\u0301ct": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"PROJECTILE": "proje\u0301ctile",
@@ -68686,8 +68395,7 @@
 			"a."
 		],
 		"prola\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"PROLATION": "prola\u0301tion",
@@ -68884,9 +68592,8 @@
 	"PROPINATION": "pro\u0300pina\u0301tion",
 	"PROPINE": {
 		"propi\u0301ne": [
-			"n.",
-			"t.",
-			"v."
+			"v.",
+			"n."
 		],
 		"pro\u0301pine": [
 			"n."
@@ -69113,9 +68820,7 @@
 	"PROTERVITY": "prote\u0301rvity",
 	"PROTEST": {
 		"prote\u0301st": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"pro\u0301test": [
 			"n."
@@ -69223,8 +68928,7 @@
 	"PROANT": "pro\u0301ant",
 	"PROVANT": {
 		"prova\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"pro\u0301vant": [
 			"a."
@@ -70409,8 +70113,7 @@
 			"n."
 		],
 		"qu\u0300aranti\u0301ne": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"QUARL": "quarl",
@@ -71348,8 +71051,7 @@
 	"RAVIN": "ra\u0301vin",
 	"RAVINE": {
 		"ra\u0301vine": [
-			"v.",
-			"t."
+			"v."
 		],
 		"ravi\u0301ne": [
 			"n."
@@ -71435,8 +71137,8 @@
 	"REAK": "reak",
 	"REAL": {
 		"re\u0301al": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"rea\u0301l": [
 			"a."
@@ -71542,12 +71244,11 @@
 	"REBEC": "re\u0301bec",
 	"REBEL": {
 		"re\u0301bel": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"rebe\u0301l": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"REBELDOM": "re\u0301beldom",
@@ -71732,8 +71433,7 @@
 	"RECOINAGE": "reco\u0301inage",
 	"RECOLLECT": {
 		"re\u0300colle\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"re\u0301collect": [
 			"n."
@@ -71813,8 +71513,7 @@
 	"RECONVERSION": "re\u0300conve\u0301rsion",
 	"RECONVERT": {
 		"re\u0300conve\u0301rt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"reco\u0301nvert": [
 			"n."
@@ -71826,9 +71525,7 @@
 	"RECOPY": "reco\u0301py",
 	"RECORD": {
 		"reco\u0301rd": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"re\u0301cord": [
 			"n."
@@ -72139,8 +71836,7 @@
 			"n."
 		],
 		"re\u0300ferme\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"REFERRER": "refe\u0301rrer",
@@ -72169,12 +71865,11 @@
 	"REFLET": "refle\u0301t",
 	"REFLEX": {
 		"re\u0301flex": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"refle\u0301x": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"REFLEXED": "refle\u0301xed",
@@ -72276,10 +71971,8 @@
 	"REFUSAL": "refu\u0301sal",
 	"REFUSE": {
 		"refu\u0301se": [
-			"n.",
-			"t.",
 			"v.",
-			"i."
+			"n."
 		],
 		"re\u0301fuse": [
 			"a."
@@ -72390,8 +72083,7 @@
 			"n."
 		],
 		"regre\u0301ss": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"REGRESSION": "regre\u0301ssion",
@@ -72927,12 +72619,7 @@
 	"REPEATER": "repe\u0301ater",
 	"REPEATING": "repe\u0301ating",
 	"REPEDATION": "re\u0301peda\u0301tion",
-	"REPEL": {
-		"repe\u0301l": [
-			"v.",
-			"i."
-		]
-	},
+	"REPEL": "repe\u0301l",
 	"REPELLENCE": "repe\u0301llence",
 	"REPELLENCY": "repe\u0301llency",
 	"REPELLENT": "repe\u0301llent",
@@ -72942,9 +72629,7 @@
 			"a."
 		],
 		"repe\u0301nt": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"REPENTANCE": "repe\u0301ntance",
@@ -73063,8 +72748,7 @@
 	"REPRIMER": "repri\u0301mer",
 	"REPRINT": {
 		"repri\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"re\u0301pri\u0300nt": [
 			"n."
@@ -73242,9 +72926,8 @@
 	"RESERVOR": "rese\u0301rvor",
 	"RESET": {
 		"rese\u0301t": [
-			"n.",
 			"v.",
-			"t."
+			"n."
 		],
 		"re\u0301set": [
 			"n."
@@ -73477,8 +73160,7 @@
 	"RESURRECTIONIZE": "re\u0300surre\u0301ctionize",
 	"RESURVEY": {
 		"re\u0300surve\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"resu\u0301rvey": [
 			"n."
@@ -73494,12 +73176,11 @@
 	"RETABLE": "reta\u0301ble",
 	"RETAIL": {
 		"re\u0301tail": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"reta\u0301il": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"RETAILER": "reta\u0301iler",
@@ -73700,13 +73381,11 @@
 	"REVEILLE": "reve\u0301ille",
 	"REVEL": {
 		"re\u0301vel": [
-			"n.",
 			"v.",
-			"i."
+			"n."
 		],
 		"reve\u0301l": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"REVELATE": "re\u0301velate",
@@ -74741,8 +74420,7 @@
 	"ROUGH": "rough",
 	"ROUGHCAST": {
 		"ro\u0300ughca\u0301st": [
-			"v.",
-			"t."
+			"v."
 		],
 		"ro\u0301ughca\u0300st": [
 			"n."
@@ -76039,8 +75717,7 @@
 	"SAUTE": "sa\u0300ute\u0301",
 	"SAUTER": {
 		"sa\u0300ute\u0301r": [
-			"v.",
-			"t."
+			"v."
 		],
 		"sa\u0301uter": [
 			"n."
@@ -83841,12 +83518,11 @@
 	"SUBSTRACTOR": "substra\u0301ctor",
 	"SUBSTRATE": {
 		"su\u0301bstrate": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"substra\u0301te": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"SUBSTRATUM": "substra\u0301tum",
@@ -84078,8 +83754,7 @@
 			"n."
 		],
 		"suffi\u0301x": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"SUFFIXION": "suffi\u0301xion",
@@ -84425,8 +84100,7 @@
 	"SUPERFUSE": "su\u0300perfu\u0301se",
 	"SUPERHEAT": {
 		"su\u0300perhe\u0301at": [
-			"v.",
-			"t."
+			"v."
 		],
 		"su\u0301perhe\u0300at": [
 			"n."
@@ -84793,8 +84467,7 @@
 			"n."
 		],
 		"surna\u0301me": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"SURNOMINAL": "surno\u0301minal",
@@ -84846,8 +84519,7 @@
 			"n."
 		],
 		"surta\u0301x": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"SURTOUT": "surto\u0301ut",
@@ -84859,8 +84531,7 @@
 	"SURVENUE": "su\u0301rvenue",
 	"SURVEY": {
 		"surve\u0301y": [
-			"v.",
-			"t."
+			"v."
 		],
 		"su\u0301rvey": [
 			"n."
@@ -88378,8 +88049,7 @@
 			"n."
 		],
 		"torme\u0301nt": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"TORMENTER": "torme\u0301nter",
@@ -88770,8 +88440,7 @@
 	"TRAITRESS": "tra\u0301itress",
 	"TRAJECT": {
 		"traje\u0301ct": [
-			"v.",
-			"t."
+			"v."
 		],
 		"tra\u0301ject": [
 			"n."
@@ -88870,8 +88539,7 @@
 	"TRANSFEMINATE": "transfe\u0301minate",
 	"TRANSFER": {
 		"transfe\u0301r": [
-			"v.",
-			"t."
+			"v."
 		],
 		"tra\u0301nsfer": [
 			"n."
@@ -89012,8 +88680,7 @@
 	"TRANSPLENDENT": "transple\u0301ndent",
 	"TRANSPORT": {
 		"transpo\u0301rt": [
-			"v.",
-			"t."
+			"v."
 		],
 		"tra\u0301nsport": [
 			"n."
@@ -89061,9 +88728,8 @@
 	"TRANSVERSAL": "transve\u0301rsal",
 	"TRANSVERSE": {
 		"transve\u0301rse": [
-			"v.",
-			"t.",
-			"a."
+			"a.",
+			"v."
 		],
 		"tra\u0301nsverse": [
 			"n."
@@ -90280,9 +89946,7 @@
 			"n."
 		],
 		"turmo\u0301il": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"TURN": "turn",
@@ -91157,8 +90821,7 @@
 	"UNDERCHAPS": "u\u0301ndercha\u0300ps",
 	"UNDERCHARGE": {
 		"u\u0300ndercha\u0301rge": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301ndercha\u0300rge": [
 			"n."
@@ -91182,8 +90845,7 @@
 			"n."
 		],
 		"u\u0300ndercu\u0301t": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"UNDERDEALING": "u\u0301nderde\u0300aling",
@@ -91198,8 +90860,7 @@
 			"n."
 		],
 		"u\u0300nderdo\u0301se": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"UNDERDRAIN": {
@@ -91207,8 +90868,7 @@
 			"n."
 		],
 		"u\u0300nderdra\u0301in": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"UNDERDRESSED": "u\u0300nderdre\u0301ssed",
@@ -91261,9 +90921,7 @@
 	"UNDERLAID": "u\u0300nderla\u0301id",
 	"UNDERLAY": {
 		"u\u0300nderla\u0301y": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301nderla\u0300y": [
 			"n."
@@ -91276,9 +90934,7 @@
 	"UNDERLETTER": "u\u0301nderle\u0300tter",
 	"UNDERLIE": {
 		"u\u0300nderli\u0301e": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301nderli\u0300e": [
 			"n."
@@ -91319,8 +90975,7 @@
 	"UNDERPLANT": "u\u0300nderpla\u0301nt",
 	"UNDERPLAY": {
 		"u\u0300nderpla\u0301y": [
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301nderpla\u0300y": [
 			"n."
@@ -91341,8 +90996,7 @@
 	"UNDERPUT": "u\u0300nderpu\u0301t",
 	"UNDERRATE": {
 		"u\u0300nderra\u0301te": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301nderra\u0300te": [
 			"n."
@@ -91360,8 +91014,7 @@
 	"UNDERSERVANT": "u\u0301nderse\u0300rvant",
 	"UNDERSET": {
 		"u\u0300nderse\u0301t": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301nderse\u0300t": [
 			"n."
@@ -91441,9 +91094,7 @@
 	"UNDERWOOD": "u\u0301nderwo\u0300od",
 	"UNDERWORK": {
 		"u\u0300nderwo\u0301rk": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301nderwo\u0300rk": [
 			"n."
@@ -91502,8 +91153,7 @@
 	"UNDREAMT": "undre\u0301amt",
 	"UNDRESS": {
 		"undre\u0301ss": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301ndress": [
 			"n."
@@ -91651,8 +91301,7 @@
 			"a."
 		],
 		"u\u0300nfrequ\u0301ent": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"UNFREQUENTED": "u\u0300nfrequ\u0301ented",
@@ -92642,8 +92291,7 @@
 	"UPBRAID": "upbra\u0301id",
 	"UPBREAK": {
 		"upbre\u0301ak": [
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301pbre\u0300ak": [
 			"n."
@@ -92656,12 +92304,11 @@
 	"UPBURST": "u\u0301pbu\u0300rst",
 	"UPCAST": {
 		"u\u0301pca\u0300st": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		],
 		"upca\u0301st": [
-			"v.",
-			"t."
+			"v."
 		]
 	},
 	"UPCAUGHT": "u\u0301pca\u0300ught",
@@ -92687,8 +92334,7 @@
 			"n."
 		],
 		"upgu\u0301sh": [
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"UPHAF": "upha\u0301f",
@@ -92725,8 +92371,7 @@
 	"UPLEAN": "uple\u0301an",
 	"UPLIFT": {
 		"upli\u0301ft": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301pli\u0300ft": [
 			"n."
@@ -92762,9 +92407,7 @@
 			"n."
 		],
 		"upro\u0301ar": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		]
 	},
 	"UPROARIOUS": "upro\u0301arious",
@@ -92774,8 +92417,7 @@
 	"UPRUN": "upru\u0301n",
 	"UPRUSH": {
 		"upru\u0301sh": [
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301pru\u0300sh": [
 			"n."
@@ -92786,13 +92428,11 @@
 	"UPSEND": "upse\u0301nd",
 	"UPSET": {
 		"upse\u0301t": [
-			"t.",
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301pse\u0300t": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"UPSETTING": "upse\u0301tting",
@@ -92809,8 +92449,7 @@
 	"UPSPEAR": "upspe\u0301ar",
 	"UPSPRING": {
 		"upspri\u0301ng": [
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301pspri\u0300ng": [
 			"n."
@@ -92829,12 +92468,11 @@
 	"UPSTARE": "upsta\u0301re",
 	"UPSTART": {
 		"upsta\u0301rt": [
-			"v.",
-			"i."
+			"v."
 		],
 		"u\u0301psta\u0300rt": [
-			"n.",
-			"a."
+			"a.",
+			"n."
 		]
 	},
 	"UPSTAY": "upsta\u0301y",
@@ -92850,8 +92488,7 @@
 	"UPSYTURVY": "u\u0301psytu\u0301rvy",
 	"UPTAKE": {
 		"upta\u0301ke": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301pta\u0300ke": [
 			"n."
@@ -92860,8 +92497,7 @@
 	"UPTEAR": "upte\u0301ar",
 	"UPTHROW": {
 		"upthro\u0301w": [
-			"v.",
-			"t."
+			"v."
 		],
 		"u\u0301pthro\u0300w": [
 			"n."

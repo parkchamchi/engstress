@@ -1,7 +1,6 @@
 import os
 import json
 import itertools
-import re
 
 class Webster():
 	"""
@@ -9,7 +8,7 @@ class Webster():
 		https://www.gutenberg.org/cache/epub/29765/pg29765.html
 	"""
 
-	def __init__(self, no_secondary=False, use_nltk=False, jsonpath="dicts/webster.json", htmlpath="dicts/pg29765.htm"):
+	def __init__(self, no_secondary=False, use_nltk=False, jsonpath="webster.json", htmlpath="dicts/pg29765.htm"):
 		"""
 		:param no_secondary: do not indicate the secondary stresses
 		:param use_nltk: use the NLTK library to process words whose pronunciation differs by it PoS. (e.g. record)
@@ -103,6 +102,7 @@ class Webster():
 				prons = []
 				pos = []
 				valid_pos = ["n.", "a.", "v.t.", "v.i.", "adv.", "p.p.", "prep.", "v.", "p.", "t.", "i.", "pret.", "imp.", "pl.", "obs.", "conj.", "interj.", "pron."]
+				meaningful_pos = ["n.", "v.", "a.", "adv."]
 
 				#Take out the words first
 				#Check if the words are valid (i.e. only of letters)
@@ -163,6 +163,8 @@ class Webster():
 				if 'v.t.' in pos: #appears to be a type of 'v. t.'
 					pos.remove('v.t.')
 					pos.extend(['v.', 't.'])
+
+				pos = [e for e in pos if e in meaningful_pos]
 
 				#Put to the dict
 				"""
@@ -368,7 +370,7 @@ class Webster():
 
 	def getStress(self, word, pos=None):
 		"""
-		TODO: NLP
+		:param pos: NLTK PoS tag. (optional)
 		"""
 
 		infl_from = infl_to = None
@@ -483,9 +485,7 @@ class Webster():
 		Replace '\n' with something else before tokenizing.
 		"""
 
-		try:
-			assert self.use_nltk
-		except Exception as exc:
+		if not self.use_nltk:
 			print("ERROR: NLTK is not loaded!")
 			return self.process(corpus)
 
@@ -512,9 +512,52 @@ class Webster():
 ######################################################
 if __name__ == "__main__":
 
-	with open("corpus.txt", "rt") as fin:
-		corpus = fin.read()
+	corpus = """
+	STRESS
+	Stress, n. Etym: [Abbrev. fr. distress; or cf. OF. estrecier to
+	press, pinch, (assumed) LL. strictiare, fr. L. strictus. See
+	Distress.]
 
-	webster = Webster(use_nltk=True)
+	1. Distress. [Obs.] Sad hersal of his heavy stress. Spenser.
 
-	print(webster.process_nltk(corpus))
+	2. Pressure, strain; — used chiefly of immaterial things; 
+	except in mechanics; hence, urgency; importance; weight; significance. 
+	The faculties of the mind are improved by exercise, 
+	yet they must not be put to a stress beyond their strength. Locke. 
+	A body may as well lay too little as too much stress upon a dream. L'Estrange.
+
+	3. (Mech. & Physics)
+
+	Defn: The force, or combination of forces, which produces a strain; 
+	force exerted in any direction or manner between contiguous bodies, or parts of bodies, 
+	and taking specific names according to its direction, or mode of action, 
+	as thrust or pressure, pull or tension, shear or tangential stress. Rankine. 
+	Stress is the mutual action between portions of matter. Clerk Maxwell.
+
+	4. (Pron.)
+
+	Defn: Force of utterance expended upon words or syllables. 
+	Stress is in English the chief element in accent and is one of the most important in emphasis. 
+	See Guide to pronunciation, §§ 31-35.
+
+	5. (Scots Law)
+
+	Defn: Distress; the act of distraining; also, the thing distrained.
+	Stress of voice, unusual exertion of the voice.
+	— Stress of weather, constraint imposed by continued bad weather;
+	as, to be driven back to port by stress of weather.
+	— To lay stress upon, to attach great importance to; to emphasize.
+	"Consider how great a stress is laid upon this duty." Atterbury.
+	— To put stress upon, or To put to a stress, to strain.
+
+	STRESS
+	Stress, v. t.
+
+	1. To press; to urge; to distress; to put to difficulties. [R.] Spenser.
+
+	2. To subject to stress, pressure, or strain.
+	"""
+
+	webster = Webster(no_secondary=True)
+
+	print(webster.process(corpus))
