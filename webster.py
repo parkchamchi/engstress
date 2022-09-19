@@ -105,6 +105,11 @@ class Webster():
 						if token.endswith(c):
 							token = token[:-1]
 
+					#Handle 'ae' diagraph
+					token = token.replace('æ', 'ae').replace('Æ', 'Ae')
+					#Handle typo - double stress mark
+					token = token.replace('""', '"').replace('"`', '`').replace('*"', '"').replace('*`', '`')
+
 					prons.append(token)
 					tokens.pop(0)
 
@@ -232,7 +237,26 @@ class Webster():
 					if len(dic) == 1:
 						break
 
-			#The remaining pairs differ by their POS				
+			#The remaining pairs differ by their POS
+			#Reiterate
+			"""
+			Final JSON:
+			{
+				WORD1: PRON1,
+				WORD2: {
+					PRON2: [...]
+					PRON3: [...]
+				}
+			}
+			"""
+			for word, dic in self.dict.items():
+				if len(dic) == 1:
+					self.dict[word] = self.indicateStress(list(dic.keys())[0])
+				else:
+					for pron in list(dic.keys()):
+						pron_stress = self.indicateStress(pron)
+						self.dict[word][pron_stress] = dic[pron]
+						del self.dict[word][pron]
 			
 			#Dump JSON
 			with open(jsonpath, "wt", encoding="utf-8") as fout:
@@ -269,17 +293,7 @@ class Webster():
 			shape += '0'
 
 		return shape
-
-	def getPron(self, word):
-		dic = self.dict.get(word.upper())
-
-		if not dic:
-			return None
-		elif len(dic) > 1:
-			return None
-		else:
-			return list(dic.keys())[0].lower()
-
+	
 	def indicateStressOnCluster(self, cluster, c):
 		"""
 		on" -> ón
@@ -319,25 +333,32 @@ class Webster():
 		if cluster:
 			out += cluster
 
-		return out		
+		return out
+
+	#Below: used after self.dict is created
+
+	def getPron(self, word):
+		dic = self.dict.get(word.upper())
+
+		if not dic:
+			return None
+		elif len(dic) > 1:
+			return None
+		else:
+			return list(dic.keys())[0].lower()
 
 	def getStress(self, word):
-		dic = self.dict.get(word.upper())
-		if not dic:
-			return word.lower()
-
-		if len(dic) > 1:
-			return word.lower()
-
-		pron = self.getPron(word)
+		pron = self.dict.get(word.upper())
 		if not pron:
-			return word.lower()
+			return word
 
-		return self.indicateStress(pron)
+		if type(pron) is not str:
+			return word
+
+		return pron
 
 		
 ######################################################
-#check aching - achingly
 if __name__ == "__main__":
 	import string
 
@@ -354,4 +375,6 @@ if __name__ == "__main__":
 		out += " "
 	print(out)
 
-#TODO: handle ae diagraph
+"""
+TODO: add ignore_secondary option
+"""
