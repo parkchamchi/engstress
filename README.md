@@ -1,5 +1,6 @@
 # Engstress: English Stress Indicator
 This script indicates the stresses of english words.<br>
+Try the [HTML/Javascript version](https://parkchamchi.github.io/engstress/)!<br>
 <br>
 
 # Example
