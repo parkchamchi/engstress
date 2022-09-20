@@ -8,11 +8,15 @@ class Engstress():
 		https://www.gutenberg.org/cache/epub/29765/pg29765.html
 	"""
 
-	def __init__(self, no_secondary=False, use_nltk=False, jsonpath="webster.json", htmlpath="dicts/pg29765.htm"):
+	def __init__(self, no_secondary=True, use_nltk=False, jsonpath="default", htmlpath="default"):
 		"""
 		:param no_secondary: do not indicate the secondary stresses
 		:param use_nltk: use the NLTK library to process words whose pronunciation differs by it PoS. (e.g. record)
+		:param jsonpath: the processed JSON file.
 		:param htmlpath: only used when jsonpath doesn't exist
+
+		If jsonpath is "default", it will try to open ./webster.json
+			& if it fails, it will try to load htmlpath, which is by default ./dict/pg29765.htm
 		"""
 
 		self.no_secondary = no_secondary
@@ -22,11 +26,18 @@ class Engstress():
 		else:
 			self.use_nltk = False
 
-		self.jsonpath = jsonpath
-		self.html = htmlpath
+		
 
 		self.acute = '\u0301' #primary
 		self.grave = '\u0300' #secondary
+
+		self.jsonpath = jsonpath
+		self.htmlpath = htmlpath
+
+		if self.jsonpath == "default":
+			self.jsonpath = jsonpath = os.path.join(os.path.abspath(os.path.dirname(__file__)), "webster.json")
+		if self.htmlpath == "default":
+			self.htmlpath = htmlpath = os.path.join(os.path.abspath(os.path.dirname(__file__)), "dict/pg29765.htm")
 
 		if os.path.exists(jsonpath):
 			#Read the processed JSON file
