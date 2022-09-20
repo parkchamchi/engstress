@@ -2,7 +2,7 @@ import os
 import json
 import itertools
 
-class Webster():
+class Engstress():
 	"""
 	Reads 1913 Webster's Dictionary, as in
 		https://www.gutenberg.org/cache/epub/29765/pg29765.html
@@ -12,33 +12,21 @@ class Webster():
 		"""
 		:param no_secondary: do not indicate the secondary stresses
 		:param use_nltk: use the NLTK library to process words whose pronunciation differs by it PoS. (e.g. record)
+		:param htmlpath: only used when jsonpath doesn't exist
 		"""
 
 		self.no_secondary = no_secondary
+
 		if use_nltk:
-			try:
-				from nltk.tag import pos_tag
-				from nltk.tokenize import sent_tokenize, word_tokenize
-				from nltk.tokenize.treebank import TreebankWordDetokenizer
-
-				self.pos_tag = pos_tag
-				self.sent_tokenize = sent_tokenize
-				self.word_tokenize = word_tokenize
-				self.detokenize = TreebankWordDetokenizer().detokenize
-
-				self.use_nltk = use_nltk
-
-			except Exception as exc:
-				print("ERROR: Failed to import NLTK.")
-				self.use_nltk = False
+			self.load_nltk() #This sets self.use_nltk
 		else:
-			self.use_nltk = use_nltk
+			self.use_nltk = False
 
 		self.jsonpath = jsonpath
 		self.html = htmlpath
 
-		self.acute = '\u0301'
-		self.grave = '\u0300'
+		self.acute = '\u0301' #primary
+		self.grave = '\u0300' #secondary
 
 		if os.path.exists(jsonpath):
 			#Read the processed JSON file
@@ -289,6 +277,26 @@ class Webster():
 			#Dump JSON
 			with open(jsonpath, "wt", encoding="utf-8") as fout:
 				json.dump(self.dict, fout, indent='\t')
+		
+	def load_nltk(self):
+		print("Loading NLTK...")
+	
+		try:
+			from nltk.tag import pos_tag
+			from nltk.tokenize import sent_tokenize, word_tokenize
+			from nltk.tokenize.treebank import TreebankWordDetokenizer
+
+			self.pos_tag = pos_tag
+			self.sent_tokenize = sent_tokenize
+			self.word_tokenize = word_tokenize
+			self.detokenize = TreebankWordDetokenizer().detokenize
+
+			self.use_nltk = True
+			print("Loaded NLTK.")
+
+		except Exception as exc:
+			print("ERROR: Failed to import NLTK.")
+			self.use_nltk = False
 
 	def match(self, word, prons):
 		"""
@@ -558,6 +566,6 @@ if __name__ == "__main__":
 	2. To subject to stress, pressure, or strain.
 	"""
 
-	webster = Webster(no_secondary=True)
+	engstress = Engstress(no_secondary=True)
 
-	print(webster.process(corpus))
+	print(engstress.process(corpus))
